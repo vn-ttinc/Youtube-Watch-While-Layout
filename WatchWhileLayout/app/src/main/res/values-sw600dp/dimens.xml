@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="watch_while_mini_player_padding">8.0dip</dimen>
+    <dimen name="watch_while_mini_player_width">280.0dip</dimen>
+    <dimen name="watch_while_mini_player_dismiss_drag_distance">130.0dip</dimen>
+    <dimen name="watch_while_mini_player_dismiss_animation_distance">160.0dip</dimen>
+    <dimen name="watch_while_mini_player_shadow_size">4.0dip</dimen>
+    <dimen name="column_min_size">220.0dip</dimen>
+</resources>

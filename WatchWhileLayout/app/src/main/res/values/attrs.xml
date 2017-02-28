@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WatchWhileLayout">
+        <attr name="playerViewId" format="reference" />
+        <attr name="playerTopLeftViewId" format="reference" />
+        <attr name="metadataViewId" format="reference" />
+        <attr name="metadataPanelViewId" format="reference" />
+        <attr name="overlayViewId" format="reference" />
+        <attr name="tabletLayout" format="boolean" />
+        <attr name="miniPlayerWidth" format="dimension" />
+        <attr name="miniPlayerPadding" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="FixedAspectRatioRelativeLayout">
+        <attr name="aspectRatio" format="fraction" />
+    </declare-styleable>
+</resources>
