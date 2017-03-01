@@ -527,9 +527,9 @@ public class WatchWhileLayout extends ViewGroup {
                 slideTo(STATE_MINIMIZED);
                 return;
             }
-            int a = calcDuration(abs, Math.max(this.mDismissDragDistance, abs), 250, smooth);
+            int duration = calcDuration(abs, Math.max(this.mDismissDragDistance, abs), 250, smooth);
             reset();
-            this.mHScroller.startScroll(this.mOffsetX, 0, -this.mOffsetX, 0, a);
+            this.mHScroller.startScroll(this.mOffsetX, 0, -this.mOffsetX, 0, duration);
             invalidate();
         }
     }
@@ -1040,18 +1040,6 @@ public class WatchWhileLayout extends ViewGroup {
             out.writeInt(this.state);
         }
     }
-//
-//    static final class DXJ {
-//        static final int DXJ_VERTICAL;
-//        static final int DXJ_HORIZONTAL;
-//        static final int DXJ_NONE;
-//
-//        static {
-//            DXJ_VERTICAL = 1;
-//            DXJ_HORIZONTAL = 2;
-//            DXJ_NONE = 3;
-//        }
-//    }
 
     static final class Sign {
         public static final int SIGN_NEGATIVE;

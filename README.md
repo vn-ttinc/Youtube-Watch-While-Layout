@@ -1,4 +1,4 @@
-# Youtute-Watch-While-Layout (WWL)
+# Youtube-Watch-While-Layout (WWL)
 Ứng dụng mẫu cài đặt kỹ thuật xem video trong khi bố cục giao diện thay đổi.
 
 WWL cần các cấu hình cơ bản như:
@@ -42,10 +42,10 @@ public static final int STATE_MINIMIZED = 2;
 # Demo
 + Android Phone
 
-![1](https://github.com/vn-ttinc/Youtute-Watch-While-Layout/blob/master/screenshots/demo1.gif "")
+![1](https://github.com/vn-ttinc/Youtube-Watch-While-Layout/blob/master/screenshots/demo1.gif "")
 
 + Android Tablet
 
-![1](https://github.com/vn-ttinc/Youtute-Watch-While-Layout/blob/master/screenshots/demo2.gif "")
+![1](https://github.com/vn-ttinc/Youtube-Watch-While-Layout/blob/master/screenshots/demo2.gif "")
 
-Nếu thấy chưa hợp lý hoặc cần chỉnh sửa để tốt hơn thì bổ sung [vào đây](https://github.com/vn-ttinc/Youtute-Watch-While-Layout/issues) bạn nhé :)
+Nếu thấy chưa hợp lý hoặc cần chỉnh sửa để tốt hơn thì bổ sung [vào đây](https://github.com/vn-ttinc/Youtube-Watch-While-Layout/issues) bạn nhé :)
